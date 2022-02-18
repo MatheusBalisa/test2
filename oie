@@ -1,0 +1,45 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "1a92b3c9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Todos direitos reservados para Guilherme Menegon Arantes, IQ-USP, Brasil.\n",
+    "# Este material não pode ser reproduzido, copiado, modificado ou redistribuído sem permissão do autor.\n",
+    "\n",
+    "# Models\n",
+    "import py3Dmol\n",
+    "from IPython.core.display import HTML\n",
+    "from IPython.display      import Image, display\n",
+    "from ipywidgets import ToggleButtons, interact, interactive, Layout, FloatSlider\n",
+    "\n",
+    "# Plots\n",
+    "import numpy as np\n",
+    "import matplotlib.pyplot  as plt\n",
+    "from matplotlib.widgets import *\n",
+    "\n",
+    "# Plots style\n",
+    "import json\n",
+    "import matplotlib as mpl\n",
+    "\n",
+    "s = json.load(open(\"../DATA/styles/matplotlibrc.json\"))\n",
+    "mpl.rcParams.update(s)\n",
+    "\n",
+    "%matplotlib widget"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0c633e24",
+   "metadata": {},
+   "source": [
+    "# Interações moleculares - Notas de aula\n",
+    "<p></p>\n",
+    "<div style=\"text-align: right\">\n",
+    "<a href=\"http://gaznevada.iq.usp.br:8080/voila/render/notebooks/index.ipynb\" style=\"font-size: x-large;\">Índice</a>\n",
+    "</div>"
+   ]
+  }
